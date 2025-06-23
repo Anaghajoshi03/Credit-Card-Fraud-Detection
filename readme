@@ -1,0 +1,25 @@
+pip install streamlit scikit-learn numpy pandas pickle5
+pip uninstall httpx openai -y
+pip install --upgrade httpx openai
+
+pip install google-generativeai
+
+
+pip uninstall googletrans -y
+pip install googletrans==4.0.0-rc1 --no-deps
+
+
+FraudDetectionApp
+│
+├── app.py                # The Flask application code
+├── fraud_detection_model.pkl  # The saved model file
+ 
+
+to run
+streamlit run app.py
+
+
+imp
+pip install --upgrade streamlit google-generativeai numpy
+
+pip install streamlit-extras
